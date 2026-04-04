@@ -92,9 +92,11 @@ const LayoutBase = props => {
         </div>
 
         {/* 左下悬浮 */}
+        {/*
         <div className='bottom-4 -left-14 fixed justify-end z-40'>
           <Live2D />
         </div>
+        */}
 
         {/* 搜索框 */}
         <AlgoliaSearchModal cRef={searchModal} {...props} />
