@@ -64,7 +64,7 @@ const LayoutBase = props => {
               : '') + ' flex'
           }>
           {/* 侧边抽屉 */}
-          <AsideLeft {...props} slot={leftAreaSlot} />
+           {/*<AsideLeft {...props} slot={leftAreaSlot} />*/}
 
           <main
             id='wrapper'
